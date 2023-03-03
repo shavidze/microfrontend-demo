@@ -1,0 +1,15 @@
+{
+  "name": "webpack-ts-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build-dev": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development",
+    "start:live": "webpack-dev-server --open --mode development --liveReload"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Saba Shavidze",
+    "email": "sabashavidze@gmail.com"
+  }
+}
